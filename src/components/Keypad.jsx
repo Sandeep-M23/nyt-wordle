@@ -5,7 +5,7 @@ const Keypad = ({ usedKeys }) => {
 
     useEffect(() => {
         fetch(
-            "https://raw.githubusercontent.com/VarunSAthreya/anilist-graphql/main/__generated__/letter.json"
+            "https://raw.githubusercontent.com/Sandeep-M23/nyt-wordle/main/public/letter.json"
         )
             .then((res) => res.json())
             .then((json) => {

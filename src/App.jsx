@@ -8,7 +8,7 @@ function App() {
 
     useEffect(() => {
         fetch(
-            "https://raw.githubusercontent.com/VarunSAthreya/anilist-graphql/main/__generated__/solution.json"
+            "https://raw.githubusercontent.com/Sandeep-M23/nyt-wordle/main/public/solution.json"
         )
             .then((res) => res.json())
             .then((json) => {
